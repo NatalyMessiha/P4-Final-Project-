@@ -1,7 +1,19 @@
+html,
 body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #212529;
+}
+
+main {
+  flex: 1;
 }
 
 .site-header {
@@ -14,7 +26,7 @@ body {
 
 .hero {
   min-height: 75vh;
-  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80") center center / cover no-repeat;
+  background: url("../images/hero.jpg") center center / cover no-repeat;
   position: relative;
 }
 
