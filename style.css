@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #0d6efd, #198754);
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.hero {
+  min-height: 75vh;
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80") center center / cover no-repeat;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.page-banner {
+  background: linear-gradient(135deg, #198754, #0d6efd);
+}
+
+.section-title {
+  font-weight: 700;
+}
+
+.section-subtitle {
+  color: #6c757d;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.feature-box,
+.content-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cta-section {
+  background-color: #e9ecef;
+}
+
+.list-group-item.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#formMessage.success {
+  color: #198754;
+}
+
+#formMessage.error {
+  color: #dc3545;
+}
