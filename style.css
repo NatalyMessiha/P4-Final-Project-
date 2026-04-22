@@ -31,11 +31,6 @@ main {
   border-radius: 4px;
 }
 
-.hero-logo {
-  max-width: 260px;
-  height: auto;
-}
-
 .navbar-brand {
   letter-spacing: 0.5px;
 }
